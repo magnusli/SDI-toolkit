@@ -37,9 +37,11 @@ header {
   margin: 0 0 50px 0;
   background-color: #011d49;
   color: white;
-  text-align: center;
 }
 
+header h1 {
+  margin-left: 25vw;
+}
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   cursor: pointer;
