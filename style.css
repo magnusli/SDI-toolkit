@@ -86,7 +86,7 @@ header img {
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  padding: 0 10px;
+  padding: 0 0;
   display: none;
   overflow: hidden;
   background-color: #FFFFFF;
