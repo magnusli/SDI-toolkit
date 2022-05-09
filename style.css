@@ -33,6 +33,12 @@ p {
   text-align: justify;
   line-height: 1.5;
 }
+a {
+  font-style: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-decoration: inherit;
+}
 li {
   font-family: 'Roboto light', sans-serif;
   font-size: 18px;
@@ -91,4 +97,19 @@ header img {
 .full_page_img {
   display: block;
   margin: 0px auto 70px auto;
+}
+.page_menu {
+  position: fixed;
+  margin: 0 0 0 20px;
+  border-left: 1px solid #011d49;
+  padding-left: 20px;
+  list-style-type: none;
+}
+.page_menu li{
+  margin: 25px 0 25px 0;
+  line-height: 1.2;
+}
+.page_menu .current_page{
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid #011d49;
 }
