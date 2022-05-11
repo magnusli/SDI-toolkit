@@ -1,4 +1,18 @@
+:root {
+  --section_width_standard: 45vw;
+  --section_width_broad: 58vw;
+}
 
+@media only screen and (max-width: 1300px) {
+  :root {
+    --section_width_standard: 80vw;
+    --section_width_broad: 90vw;
+  }
+  .page_menu {
+    position: relative;
+    margin: auto;
+  }
+}
 
 body {
   padding: 0 0 100px 0;
@@ -14,23 +28,23 @@ h2 {
   font-family: 'Roboto light', sans-serif;
   font-size: 30px;
   margin: 20px auto 40px auto;
-  width: 48vw;
+  width: var(--section_width_standard);
 }
 h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto light', sans-serif;
   background-color: white;
   padding: 0px;
   margin: 0;
   font-size: 22px;
   line-height: 1.5;
-  margin: 80px auto 20px auto;
-  width: 48vw;
+  margin: 90px auto 20px auto;
+  width: var(--section_width_standard);
 }
 h4 {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   margin: 30px auto 8px auto;
-  width: 48vw;
+  width: var(--section_width_standard);
 }
 
 p {
@@ -39,7 +53,7 @@ p {
   text-align: justify;
   line-height: 1.5;
   margin: 8px auto 8px auto;
-  width: 48vw;
+  width: var(--section_width_standard);
 }
 a {
   font-style: inherit;
@@ -55,11 +69,11 @@ li {
 }
 ul {
   margin: 8px auto 8px auto;
-  width: 48vw;
+  width: var(--section_width_standard);
 }
 ol {
   margin: 8px auto 8px auto;
-  width: 48vw;
+  width: var(--section_width_standard);
 }
 
 header {
@@ -162,14 +176,4 @@ header img {
 .gallery_list li:hover {
   background-color: #011d49;
   color: white;
-}
-@media only screen and (max-width: 1000px) {
-  section {
-    width: 80vw;
-    position: right;
-  }
-  .page_menu {
-    position: relative;
-    margin: auto;
-  }
 }
