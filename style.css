@@ -1,3 +1,5 @@
+
+
 body {
   padding: 0;
   margin: 0;
@@ -101,7 +103,7 @@ header img {
   margin: 0px auto 70px auto;
 }
 .page_menu {
-  position: fixed;
+  position: absolute;
   margin: 0 0 0 20px;
   border-left: 3px solid #011d49;
   padding-left: 20px;
@@ -153,4 +155,14 @@ header img {
 .gallery_list li:hover {
   background-color: #011d49;
   color: white;
+}
+@media only screen and (max-width: 1000px) {
+  section {
+    width: 80vw;
+    position: right;
+  }
+  .page_menu {
+    position: relative;
+    margin: auto;
+  }
 }
