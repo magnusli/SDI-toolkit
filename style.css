@@ -165,8 +165,7 @@ header img {
   margin-top: 20px;
   margin-bottom: 0;
   cursor: pointer;
-  background-color: #011d49;
-  color: white;
+  border-top: 2px solid #011d49;
 }
 
 .active, .collapsible:hover {
