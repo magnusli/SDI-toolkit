@@ -164,6 +164,7 @@ header img {
   margin-left: -20px;
   margin-top: 20px;
   margin-bottom: 0;
+  padding-left: 0;
   cursor: pointer;
   border-top: 2px solid #011d49;
 }
