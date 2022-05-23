@@ -194,6 +194,7 @@ header img {
   margin-bottom: 5px;
 }
 .steps_list li:before {
+  font-family: 'Roboto', sans-serif;
   margin-right: 10px;
   margin-left: -25px;
   content: counter(item);
