@@ -182,3 +182,25 @@ header img {
   display: none;
   overflow: hidden;
 }
+
+.steps_list {
+  list-style: none;
+  counter-reset: item;
+  margin-top: 30px;
+
+}
+.steps_list li {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+.steps_list li:before {
+  margin-right: 10px;
+  margin-left: -25px;
+  content: counter(item);
+  background: #011d49;
+  border-radius: 100%;
+  color: white;
+  width: 1.2em;
+  text-align: center;
+  display: inline-block;
+}
