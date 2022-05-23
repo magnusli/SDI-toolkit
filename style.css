@@ -51,8 +51,8 @@ h3 {
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  margin: 30px auto 8px auto;
+  font-size: 20px;
+  margin: 30px auto 15px auto;
   width: var(--section_width_standard);
 }
 
@@ -158,7 +158,7 @@ header img {
 
 
 /* collapsible CSS */
-.collapsible{
+li.collapsible {
   display: block;
   width: 99%;
   margin-left: -20px;
@@ -166,7 +166,13 @@ header img {
   margin-bottom: 0;
   padding-left: 0;
   cursor: pointer;
-  border-top: 2px solid #011d49;
+}
+.collapsible i {
+  margin-right: 10px;
+}
+
+h3.collapsible {
+  cursor: pointer;
 }
 
 .active, .collapsible:hover {
@@ -181,6 +187,10 @@ header img {
   width: 100%;
   display: none;
   overflow: hidden;
+}
+
+h3.collapsible  + .content {
+   margin-left: 0;
 }
 
 .steps_list {
