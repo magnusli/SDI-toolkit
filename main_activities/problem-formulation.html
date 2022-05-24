@@ -2,6 +2,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/414c94076b.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
@@ -46,81 +48,86 @@
           <li>While doing the above, iterating back and forth between project configuration and developing understanding</li>
         </ul>
 
-        <h3>Define and explore the problem hierarchy</h3>
-        <p>
-          Problems are most often nested and recursive. That is, a problem is often part of a broader and more
-          fundamental problem, and vice versa, a problem often comprise of several problems. An important part of
-          problem formulation is to identify the hierarchy of problems and decide what level the project should be
-          organized around. This can be developed by answering two questions, which may involve iterating between
-          problem formulation and developing an understanding of the socio-technical system:
-        </p>
+        <h3 class="collapsible">Define and explore the problem hierarchy</h3>
+        <section class="content">
+          <p>
+            Problems are most often nested and recursive. That is, a problem is often part of a broader and more
+            fundamental problem, and vice versa, a problem often comprise of several problems. An important part of
+            problem formulation is to identify the hierarchy of problems and decide what level the project should be
+            organized around. This can be developed by answering two questions, which may involve iterating between
+            problem formulation and developing an understanding of the socio-technical system:
+          </p>
+            <ul>
+              <li>Why is it a problem?</li>
+              <li>What causes the problem?</li>
+            </ul>
+          <p>
+            Answering these questions may involve several iterations between problem formulation and developing an
+            understanding of the existing socio-technical system.
+          </p>
+
+          <p>
+            Figure 1 offers an example of a problem hierarchy. Surrounded by stippled lines is the preliminary
+            problem formulation. By asking the question How is this a problem?, several levels (and two alternative “routes”)
+            of antecedent problems have been identified. Further, by exploring the question what is the cause of the problem?
+            through the activity of developing an understanding of the existing socio-technical system, we have identified three
+            descendent problems. These three may in turn have several levels of descendent problem.
+          </p>
+
+          <img height="760px" class="full_page_img" src="images/problem-formulation-hierarchy.png" alt="A problem hierarchy showing the antecedent and decendent problems of the formulated problem">
+
+
+          <h4>Moving upwards the problem hierarchy</h4>
+          <p>
+            Note that for every of the antecedent problems in the hierarchy shown in Figure X it is possible to develop a tree of multiple descendent problems. For example, if exploring the descendents to the problem “the routine health data is unreliable”, one may identify many other than “data quality is low”, such as, “reporting rates are low” and “the denominators used for calculating indicators are wrong”. As another example, the problem “Health management decisions are based too little on data” may, beyond “the routine data is unreliable” have descendent problems such as “there is a lack of tools that presents relevant data in an effective manner” or “there is a lack of work routines related to routine data use”. Defining a problem hierarchy thus helps in examining if and why a problem matters, and if it makes more sense to organize the project around a broader antecedent problem. Accordingly, by exploring the problem hierarchy, one may decide to jump one or several levels up to antecedent problems to explore alternative descendents.
+            <br><br>
+            Deciding to redefine the problem to an antecedent problem will increase the design and innovation space of the project and increase the probability of addressing the “right” problem. “Right” being the problem which, when solved, would have the greatest positive effect on the antecedent problems that really matter. For instance, rather than defining the problem of focus in the project as “the usability of the data entry screen is poor”, one may redefine it to “routine data is unreliable”, which, in turn, will open up for exploring a wider range of potential descendant problems and possible solutions. However, broadening the problem formulation will also affect the scope of the project, and is dependent on its mandate. The problem formulation must hence be realistic given the project mandate, or require a reformulation of the scope and mandate if possible.
+          </p>
+
+          <h4>Moving downwards the problem hierarchy</h4>
+          <p>
+            Similarly, by developing an understanding of the existing socio-technical system, one will identify several
+            descendent problems that make part of causing the problem for focus. It is useful to systematically document these
+            problems and decide whether the project will address one of these, or several. In the example in Figure 1, the
+            project could thus involve addressing all three descendent problems, or it could be reframed to focus on one, such
+            as the problem of “users selecting the wrong reporting form”. If doing the latter, it is necessary to further develop
+            the understanding of the existing socio-technical system to define the tree of descendents to form basis for identifying
+            the right solution(s).
+          </p>
+
+          <h4>What is the right problem?</h4>
+          <p>
+            As evident from the example above, it can be difficult to be certain of what is the right problem definition to base the project on. If too broad, the project may quickly get too comprehensive, and if too narrow,
+            good opportunities for new innovations may be missed. Further, a project with the scope and mandate of exclusively focusing on the improvement of user interfaces will not benefit from problem formulations
+            that focus on high-level antecedent problems. Iterating between project configuration (to negotiate and define the scope and mandate of the project), and ideation of potential (conceptual) solutions, could help
+            in identifying a appropriately broad <i>and</i> narrow problem formulation. One could, for instance, try out different problem formulations, and then see where ideation of potential solutions to the problem could
+            take the project while assesing whether it is viable given the scope, mandate, and resources of the project.
+          </p>
+        </section>
+
+        <h3 class="collapsible">Secure early and continuous stakeholder involvement and commitment</h3>
+        <section class="content">
+          <p>
+            Problems are always formulated from a perspective, and what is considered to be a problem by one stakeholder
+            may not be so by another. To secure commitment from key stakeholders, these should accordingly be involved in
+            the problem formulation activities to make sure that everyone agrees that the problem is relevant to be addressed,
+            and as a consequence, are committed to exploring and potentially implementing relevant solutions.
+          </p>
+        </section>
+
+        <h3 class="collapsible">Common challenges, misconceptions, and pitfalls</h3>
+        <section class="content">
           <ul>
-            <li>Why is it a problem?</li>
-            <li>What causes the problem?</li>
+            <li class="collapsible">Problem is formulated to narrowly</li>
+            <section class="content">
+              <p>Content to be added soon</p>
+            </section>
+            <li class="collapsible">The problem is taken-for-granted</li>
+            <section class="content">
+              <p>Content to be added soon</p>
+            </section>
           </ul>
-        <p>
-          Answering these questions may involve several iterations between problem formulation and developing an
-          understanding of the existing socio-technical system.
-        </p>
-
-        <p>
-          Figure 1 offers an example of a problem hierarchy. Surrounded by stippled lines is the preliminary
-          problem formulation. By asking the question How is this a problem?, several levels (and two alternative “routes”)
-          of antecedent problems have been identified. Further, by exploring the question what is the cause of the problem?
-          through the activity of developing an understanding of the existing socio-technical system, we have identified three
-          descendent problems. These three may in turn have several levels of descendent problem.
-        </p>
-
-        <img height="760px" class="full_page_img" src="images/problem-formulation-hierarchy.png" alt="A problem hierarchy showing the antecedent and decendent problems of the formulated problem">
-
-
-        <h4>Moving upwards the problem hierarchy</h4>
-        <p>
-          Note that for every of the antecedent problems in the hierarchy shown in Figure X it is possible to develop a tree of multiple descendent problems. For example, if exploring the descendents to the problem “the routine health data is unreliable”, one may identify many other than “data quality is low”, such as, “reporting rates are low” and “the denominators used for calculating indicators are wrong”. As another example, the problem “Health management decisions are based too little on data” may, beyond “the routine data is unreliable” have descendent problems such as “there is a lack of tools that presents relevant data in an effective manner” or “there is a lack of work routines related to routine data use”. Defining a problem hierarchy thus helps in examining if and why a problem matters, and if it makes more sense to organize the project around a broader antecedent problem. Accordingly, by exploring the problem hierarchy, one may decide to jump one or several levels up to antecedent problems to explore alternative descendents.
-          <br><br>
-          Deciding to redefine the problem to an antecedent problem will increase the design and innovation space of the project and increase the probability of addressing the “right” problem. “Right” being the problem which, when solved, would have the greatest positive effect on the antecedent problems that really matter. For instance, rather than defining the problem of focus in the project as “the usability of the data entry screen is poor”, one may redefine it to “routine data is unreliable”, which, in turn, will open up for exploring a wider range of potential descendant problems and possible solutions. However, broadening the problem formulation will also affect the scope of the project, and is dependent on its mandate. The problem formulation must hence be realistic given the project mandate, or require a reformulation of the scope and mandate if possible.
-        </p>
-
-        <h4>Moving downwards the problem hierarchy</h4>
-        <p>
-          Similarly, by developing an understanding of the existing socio-technical system, one will identify several
-          descendent problems that make part of causing the problem for focus. It is useful to systematically document these
-          problems and decide whether the project will address one of these, or several. In the example in Figure 1, the
-          project could thus involve addressing all three descendent problems, or it could be reframed to focus on one, such
-          as the problem of “users selecting the wrong reporting form”. If doing the latter, it is necessary to further develop
-          the understanding of the existing socio-technical system to define the tree of descendents to form basis for identifying
-          the right solution(s).
-        </p>
-
-        <h4>What is the right problem?</h4>
-        <p>
-          As evident from the example above, it can be difficult to be certain of what is the right problem definition to base the project on. If too broad, the project may quickly get too comprehensive, and if too narrow,
-          good opportunities for new innovations may be missed. Further, a project with the scope and mandate of exclusively focusing on the improvement of user interfaces will not benefit from problem formulations
-          that focus on high-level antecedent problems. Iterating between project configuration (to negotiate and define the scope and mandate of the project), and ideation of potential (conceptual) solutions, could help
-          in identifying a appropriately broad <i>and</i> narrow problem formulation. One could, for instance, try out different problem formulations, and then see where ideation of potential solutions to the problem could
-          take the project while assesing whether it is viable given the scope, mandate, and resources of the project.
-        </p>
-
-        <h3>Secure early and continuous stakeholder involvement and commitment</h3>
-        <p>
-          Problems are always formulated from a perspective, and what is considered to be a problem by one stakeholder
-          may not be so by another. To secure commitment from key stakeholders, these should accordingly be involved in
-          the problem formulation activities to make sure that everyone agrees that the problem is relevant to be addressed,
-          and as a consequence, are committed to exploring and potentially implementing relevant solutions.
-        </p>
-
-        <h3>Common challenges, misconceptions, and pitfalls</h3>
-        <ul>
-          <li class="collapsible">Problem is formulated to narrowly</li>
-          <section class="content">
-            <p>Content to be added soon</p>
-          </section>
-          <li class="collapsible">The problem is taken-for-granted</li>
-          <section class="content">
-            <p>Content to be added soon</p>
-          </section>
-        </ul>
-
+        </section>
     </main>
   <script src="../scripts.js"></script>
   </body>

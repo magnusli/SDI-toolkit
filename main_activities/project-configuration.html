@@ -2,9 +2,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/414c94076b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="../style.css">
     <title> DHIS2 Socio-technical Design and Innovation Toolkit </title>
 
@@ -45,190 +47,195 @@
       <li>Participants and roles for the (interdisciplinary) design team (including e.g., key stakeholders, designers, developers, end-user representative(s), client project managers)</li>
     </ul>
 
-    <h3>Defining the project's design scope and mandate</h3>
-    <p>
-      When configuring a project, it is valuable to explicitly define the potential design scope of the project in
-      terms of what can be subject to change and with what means. The scope will greatly affect the “design space”
-      one have in terms of the appropriate means available to address the problem of focus. The scope will hence
-      influence how broad of a problem that is relevant to address in the project, and the solutions that are realistic to
-      explore through ideation, prototyping and evaluation.
-      <br><br>
-      Defining the scope of design  involves asking the question; <i>what is up for design?</i>
-      <br><br>
-      Is design limited to the user interfaces of
-      a tool? The full form and function of a single or multiple tools? Or the larger socio-technical system of the
-      organization including aspects such as roles, work routines, policies, and data reporting standards?
-    </p>
-
-    <h4>Potential design scope for a socio-technical design and innovation project may be limited to or include:</h4>
-    <ul>
-      <li>The user interfaces of a tool</li>
-      <li>The full form and function of a tool or set of tools (e.g., an app)</li>
-      <li>Aspects of the social system such as roles, work routines, policies, and standards</li>
-    </ul>
-    <p>
-      First, the scope may be limited to designing and innovating on a digital artifact,
-      either limited to its user interface or to the entire tool or a set of tools. For instance, the scope of a project
-      may be to strengthen data quality by improving the user interface of a data entry application. Alternatively, the
-      scope may be broader to include designing and innovating on an existing tool with improved functionality, or to
-      invent a new tool such as an application. In the later case, the scope of design includes not only the user interface
-      of the tool but also its purpose and function.
-      <br><br>
-      In socio-technical design, the scope may, as the name suggests, go beyond design of tools and user interfaces
-      to encompass the design of the social system in which the tools are a part of. For instance, work routines,
-      policies, data reporting standards, and roles may be subject to design and change. Figure 1 illustrates three
-      different types of scope in socio-technical design and innovation projects. The lower two can be seen as
-      designing tools and user interfaces for a socio-technical system, and the latter as design of a socio-technical
-      system, including both technology and the social system such as work practices, policy, and roles.
-    </p>
-
-
-    <img height="450px" class="full_page_img" src="images/project-configuration-design-scope.png" alt="Illustrating how the project design scope can be technical (tools or user interfaces) or socio-technical (technical and social system)">
-
-
-    <h4>Scope is dependent on project mandate</h4>
-    <p>
-      A larger project scope allows for exploring a vider set of potential solutions to a problematic situation,
-      and for the design and innovation of more radical changes to the organization. However, a larger scope also
-      requires a larger project mandate and, potentially, greater resources and competence to explore, assess, and
-      design non-technical interventions such as organizational change interventions.
-    </p>
-
-
-    <h3>Defining the project's objectives and values</h3>
-    <p>
-      Any IT or organizational change project is driven by some more or less explicit objectives and values.
-      It is useful to explicitly reflect, discuss, and define these (and frequently revisit them as part of reconfiguring the project)
-      as different objectives and values will have significant implications for the design and innovation process
-      and its outcomes.
-    </p>
-    <h4>Primary objectives</h4>
+    <h3 class="collapsible">Defining the project's design scope and mandate</h3>
+    <section class="content">
       <p>
-      First and foremost, the primary objectives of the projects should be defined, which should capture the main intended
-      outcome of the project. For instance, a primary objective could be to increase the use of data in decision making,
-      to improve data quality, strenghten the working conditions of a group workers, or to strengthen the usability of a data entry tool.
-    </p>
-    <h4>Secondary objectives and values</h4>
-    <p>
-      Projects often also involve a variety of changes beyond the primary objectives that affects various stakeholders.
-      Secondary objectives can be designed related to other positive outcomes one seeks to achieve or commits to through
-      the project. For instance, a project can be based on participatory values to ensure a democratic design process, or
-      that the project should commit to humanistic values that promotes the welfare of workers.
-    </p>
-    <p>
-      The list below offers some common objectives and values and corresbonding principles that may help define the
-      primary and secondary for the project. For each, a set of relevant principles from different approaches to
-      socio-technical design are provided.
-    </p>
-    <h4>Potentially relevant principles for the design project</h4>
-    <ul>
-      <li class="collapsible">Participatory principles for design projects</li>
-      <section class="content">
+        When configuring a project, it is valuable to explicitly define the potential design scope of the project in
+        terms of what can be subject to change and with what means. The scope will greatly affect the “design space”
+        one have in terms of the appropriate means available to address the problem of focus. The scope will hence
+        influence how broad of a problem that is relevant to address in the project, and the solutions that are realistic to
+        explore through ideation, prototyping and evaluation.
+        <br><br>
+        Defining the scope of design  involves asking the question; <i>what is up for design?</i>
+        <br><br>
+        Is design limited to the user interfaces of
+        a tool? The full form and function of a single or multiple tools? Or the larger socio-technical system of the
+        organization including aspects such as roles, work routines, policies, and data reporting standards?
+      </p>
+
+      <h4>Potential design scope for a socio-technical design and innovation project may be limited to or include:</h4>
+      <ul>
+        <li>The user interfaces of a tool</li>
+        <li>The full form and function of a tool or set of tools (e.g., an app)</li>
+        <li>Aspects of the social system such as roles, work routines, policies, and standards</li>
+      </ul>
+      <p>
+        First, the scope may be limited to designing and innovating on a digital artifact,
+        either limited to its user interface or to the entire tool or a set of tools. For instance, the scope of a project
+        may be to strengthen data quality by improving the user interface of a data entry application. Alternatively, the
+        scope may be broader to include designing and innovating on an existing tool with improved functionality, or to
+        invent a new tool such as an application. In the later case, the scope of design includes not only the user interface
+        of the tool but also its purpose and function.
+        <br><br>
+        In socio-technical design, the scope may, as the name suggests, go beyond design of tools and user interfaces
+        to encompass the design of the social system in which the tools are a part of. For instance, work routines,
+        policies, data reporting standards, and roles may be subject to design and change. Figure 1 illustrates three
+        different types of scope in socio-technical design and innovation projects. The lower two can be seen as
+        designing tools and user interfaces for a socio-technical system, and the latter as design of a socio-technical
+        system, including both technology and the social system such as work practices, policy, and roles.
+      </p>
+
+
+      <img height="450px" class="full_page_img" src="images/project-configuration-design-scope.png" alt="Illustrating how the project design scope can be technical (tools or user interfaces) or socio-technical (technical and social system)">
+
+
+      <h4>Scope is dependent on project mandate</h4>
+      <p>
+        A larger project scope allows for exploring a vider set of potential solutions to a problematic situation,
+        and for the design and innovation of more radical changes to the organization. However, a larger scope also
+        requires a larger project mandate and, potentially, greater resources and competence to explore, assess, and
+        design non-technical interventions such as organizational change interventions.
+      </p>
+    </section>
+
+    <h3 class="collapsible">Defining the project's objectives and values</h3>
+    <section class="content">
+      <p>
+        Any IT or organizational change project is driven by some more or less explicit objectives and values.
+        It is useful to explicitly reflect, discuss, and define these (and frequently revisit them as part of reconfiguring the project)
+        as different objectives and values will have significant implications for the design and innovation process
+        and its outcomes.
+      </p>
+      <h4>Primary objectives</h4>
         <p>
-          Participatory design involves the commitment to a democratic design process, and potentially, to
-          help develop the democratic practices of the organization in general. A key concern if commiting to
-          participatory design principles is thus <i>Who is involved in what decisions and in what way</i>.
-          <br><br>
-          <i>Real</i> participation in key decisions of the design project from all levels of the organization
-          should be emphasized, securing that all affected by the implementation of new technologies and social
-          arrangements have a say. Particularly, user groups that are directly impacted (e.g., primary end-users of a tool)
-          such as health workers, health managers, and data entry clerks which may tend to be less part of key decisions
-          should be given a voice and a real opportunity to affect what problems are addressed, what solutions are introduced,
-          and how these are designed and implemented. <br><br>
-          Participatory design thus goes far beyond involving users in late evaluations of
-          the usability of user interfaces, to involving affected stakeholders throughout the project, from problem
-          formulation to solution discovery, to designing the details of the solution.
-        </p>
-        <h4>Some key principles for a participatory design project:</h4>
-        <ul>
-          <li>Genuine user participation</li>
-          <li>Deep commitments to democracy and democratisation</li>
-          <li>Increasing workplace democracy</li>
-          <li>Actual co-determination (e.g., by unions and management)</li>
-          <li>Mutual learning and capacitating participants to secure meaningful involvement in decisions</li>
-        </ul>
-        <h4>Further readings:</h4>
-        <ul>
-          <li>...</li>
-        <ul>
-
-      </section>
-      <li class="collapsible">Humanistic values emphasizing workers well-being</li>
-      <section class="content">
-        <p>
-          The tradition of <a href="https://www.interaction-design.org/literature/book/the-social-design-of-technical-systems-building-technologies-for-communities/socio-technical-design">
-          socio-technical design</a> is based on humanistic values that emphasize workers well-being.
-          The rationale is to secure that design projects emphasize developing meaningful workpaces for those affected
-          by the project. An example could be a project focusing on improving the capture of routine health data from
-          health facilities, which, following humanistic principles, emphasize the well-being of the health workers that
-          are to use implemented tools and routines. As evident in the set of principles outlined below "Well-being" goes
-          far beyond usability metrics such as "ease of use" of user interfaces, to include reasonably demanding jobs that
-          is percived as meaningful, and opportunities for self-development towards a desirable future.
-        </p>
-        <h4>Some key principles for a humanistic design project:</h4>
-        <p>The design project should seek to secure that....</p>
+        First and foremost, the primary objectives of the projects should be defined, which should capture the main intended
+        outcome of the project. For instance, a primary objective could be to increase the use of data in decision making,
+        to improve data quality, strenghten the working conditions of a group workers, or to strengthen the usability of a data entry tool.
+      </p>
+      <h4>Secondary objectives and values</h4>
+      <p>
+        Projects often also involve a variety of changes beyond the primary objectives that affects various stakeholders.
+        Secondary objectives can be designed related to other positive outcomes one seeks to achieve or commits to through
+        the project. For instance, a project can be based on participatory values to ensure a democratic design process, or
+        that the project should commit to humanistic values that promotes the welfare of workers.
+      </p>
+      <p>
+        The list below offers some common objectives and values and corresbonding principles that may help define the
+        primary and secondary for the project. For each, a set of relevant principles from different approaches to
+        socio-technical design are provided.
+      </p>
+      <h4>Potentially relevant principles for the design project</h4>
+      <ul>
+        <li class="collapsible">Participatory principles for design projects</li>
+        <section class="content">
+          <p>
+            Participatory design involves the commitment to a democratic design process, and potentially, to
+            help develop the democratic practices of the organization in general. A key concern if commiting to
+            participatory design principles is thus <i>Who is involved in what decisions and in what way</i>.
+            <br><br>
+            <i>Real</i> participation in key decisions of the design project from all levels of the organization
+            should be emphasized, securing that all affected by the implementation of new technologies and social
+            arrangements have a say. Particularly, user groups that are directly impacted (e.g., primary end-users of a tool)
+            such as health workers, health managers, and data entry clerks which may tend to be less part of key decisions
+            should be given a voice and a real opportunity to affect what problems are addressed, what solutions are introduced,
+            and how these are designed and implemented. <br><br>
+            Participatory design thus goes far beyond involving users in late evaluations of
+            the usability of user interfaces, to involving affected stakeholders throughout the project, from problem
+            formulation to solution discovery, to designing the details of the solution.
+          </p>
+          <h4>Some key principles for a participatory design project:</h4>
           <ul>
-            <li>Jobs to be reasonably demanding</li>
-            <li>Workers should have the opportunity to learn and build their (desirable) skills</li>
-            <li>Workers should have an area of decision-making</li>
-            <li>Workers should have social support</li>
-            <li>Workers should have the opportunity to relate work to social life</li>
-            <li>Workers should have a job that leads to a desirable future</li>
+            <li>Genuine user participation</li>
+            <li>Deep commitments to democracy and democratisation</li>
+            <li>Increasing workplace democracy</li>
+            <li>Actual co-determination (e.g., by unions and management)</li>
+            <li>Mutual learning and capacitating participants to secure meaningful involvement in decisions</li>
           </ul>
-        <h4>Further readings:</h4>
+          <h4>Further readings:</h4>
           <ul>
-            <li><a href="https://www.interaction-design.org/literature/book/the-social-design-of-technical-systems-building-technologies-for-communities/socio-technical-design">Socio-technical design - on interaction-design.org</a></li>
-            <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2575.2006.00221.x?casa_token=wF4jm5FzJYkAAAAA%3Axp0Ae66g34cI2xcIXWry1GVj4h2CxK2JxZaCbbYW_b-U1zZvwWT_7naHnZtYnYY5heTeUnRScz-N32ZP">The story of socio-technical design - Enid Mumford (academic article)</a></li>
+            <li>...</li>
           <ul>
 
-      </section>
-      <li class="collapsible">Principles for socio-technical and organizational change projects</li>
-      <section class="content">
-        <p>Several socio-technical approaches to design and innovation offers principles and guielines for how to design organizational arrangements for efficiency.</p>
+        </section>
+        <li class="collapsible">Humanistic values emphasizing workers well-being</li>
+        <section class="content">
+          <p>
+            The tradition of <a href="https://www.interaction-design.org/literature/book/the-social-design-of-technical-systems-building-technologies-for-communities/socio-technical-design">
+            socio-technical design</a> is based on humanistic values that emphasize workers well-being.
+            The rationale is to secure that design projects emphasize developing meaningful workpaces for those affected
+            by the project. An example could be a project focusing on improving the capture of routine health data from
+            health facilities, which, following humanistic principles, emphasize the well-being of the health workers that
+            are to use implemented tools and routines. As evident in the set of principles outlined below "Well-being" goes
+            far beyond usability metrics such as "ease of use" of user interfaces, to include reasonably demanding jobs that
+            is percived as meaningful, and opportunities for self-development towards a desirable future.
+          </p>
+          <h4>Some key principles for a humanistic design project:</h4>
+          <p>The design project should seek to secure that....</p>
+            <ul>
+              <li>Jobs to be reasonably demanding</li>
+              <li>Workers should have the opportunity to learn and build their (desirable) skills</li>
+              <li>Workers should have an area of decision-making</li>
+              <li>Workers should have social support</li>
+              <li>Workers should have the opportunity to relate work to social life</li>
+              <li>Workers should have a job that leads to a desirable future</li>
+            </ul>
+          <h4>Further readings:</h4>
+            <ul>
+              <li><a href="https://www.interaction-design.org/literature/book/the-social-design-of-technical-systems-building-technologies-for-communities/socio-technical-design">Socio-technical design - on interaction-design.org</a></li>
+              <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2575.2006.00221.x?casa_token=wF4jm5FzJYkAAAAA%3Axp0Ae66g34cI2xcIXWry1GVj4h2CxK2JxZaCbbYW_b-U1zZvwWT_7naHnZtYnYY5heTeUnRScz-N32ZP">The story of socio-technical design - Enid Mumford (academic article)</a></li>
+            <ul>
 
-        <h4>Some key principles for socio-technical organizational change projects</h4>
-          <ul>
-            <li>Redesign and optimize rather than mirror old work routines</li>
-            <li>Organize around outcomes, not tasks</li>
-            <li>Design a person’s job around an objective or outcome instead of a single task</li>
-            <li>Have those who use the output from the process perform the process</li>
-            <li>Subsume information-processing work into the real work that produces the information</li>
-            <li>Put the decision point where the work is performed, and build control into the process</li>
-            <li>Capture information once, and at the source</li>
-          </ul>
-        <h4>Further readings:</h4>
-          <ul>
-            <li><a href="https://www.interaction-design.org/literature/book/the-social-design-of-technical-systems-building-technologies-for-communities/socio-technical-design">Socio-technical design - on interaction-design.org</a></li>
-            <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2575.2006.00221.x?casa_token=wF4jm5FzJYkAAAAA%3Axp0Ae66g34cI2xcIXWry1GVj4h2CxK2JxZaCbbYW_b-U1zZvwWT_7naHnZtYnYY5heTeUnRScz-N32ZP">The story of socio-technical design - Enid Mumford (academic article)</a></li>
-          <ul>
-      </section>
-    </ul>
+        </section>
+        <li class="collapsible">Principles for socio-technical and organizational change projects</li>
+        <section class="content">
+          <p>Several socio-technical approaches to design and innovation offers principles and guielines for how to design organizational arrangements for efficiency.</p>
 
-    <h3>Common challenges, misconceptions, and pitfalls</h3>
-    <ul>
-      <li class="collapsible">Project flexibility vs. project reliability</li>
-      <section class="content">
-        <p>Content to be added soon</p>
-      </section>
-      <li class="collapsible">Mismatch between problem, scope, and mandate</li>
-      <section class="content">
-        <p>Content to be added soon</p>
-      </section>
-      <li class="collapsible">Techno-centric projects</li>
-      <section class="content">
-        <p>Content to be added soon</p>
-      </section>
-      <li class="collapsible">The "procurement line" seperating problem formulation, solution discovery, and solution creation</li>
-      <section class="content">
-        <p>Content to be added soon</p>
-      </section>
-      <li class="collapsible">Narrow mandates</li>
-      <section class="content">
-        <p>Content to be added soon</p>
-      </section>
-    </ul>
-    </main>
-  <script src="../scripts.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  </body>
+          <h4>Some key principles for socio-technical organizational change projects</h4>
+            <ul>
+              <li>Redesign and optimize rather than mirror old work routines</li>
+              <li>Organize around outcomes, not tasks</li>
+              <li>Design a person’s job around an objective or outcome instead of a single task</li>
+              <li>Have those who use the output from the process perform the process</li>
+              <li>Subsume information-processing work into the real work that produces the information</li>
+              <li>Put the decision point where the work is performed, and build control into the process</li>
+              <li>Capture information once, and at the source</li>
+            </ul>
+          <h4>Further readings:</h4>
+            <ul>
+              <li><a href="https://www.interaction-design.org/literature/book/the-social-design-of-technical-systems-building-technologies-for-communities/socio-technical-design">Socio-technical design - on interaction-design.org</a></li>
+              <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2575.2006.00221.x?casa_token=wF4jm5FzJYkAAAAA%3Axp0Ae66g34cI2xcIXWry1GVj4h2CxK2JxZaCbbYW_b-U1zZvwWT_7naHnZtYnYY5heTeUnRScz-N32ZP">The story of socio-technical design - Enid Mumford (academic article)</a></li>
+            <ul>
+        </section>
+      </ul>
+    </section>
+
+    <h3 class="collapsible">Common challenges, misconceptions, and pitfalls</h3>
+    <section class="content">
+      <ul>
+        <li class="collapsible">Project flexibility vs. project reliability</li>
+        <section class="content">
+          <p>Content to be added soon</p>
+        </section>
+        <li class="collapsible">Mismatch between problem, scope, and mandate</li>
+        <section class="content">
+          <p>Content to be added soon</p>
+        </section>
+        <li class="collapsible">Techno-centric projects</li>
+        <section class="content">
+          <p>Content to be added soon</p>
+        </section>
+        <li class="collapsible">The "procurement line" seperating problem formulation, solution discovery, and solution creation</li>
+        <section class="content">
+          <p>Content to be added soon</p>
+        </section>
+        <li class="collapsible">Narrow mandates</li>
+        <section class="content">
+          <p>Content to be added soon</p>
+        </section>
+      </ul>
+    </section>
+  </main>
+<script src="../scripts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
 </html>

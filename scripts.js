@@ -12,3 +12,8 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+//add icon to collapsible items.
+$(".collapsible").each(function() {
+  $(this).prepend('<i class="fa-solid fa-chevron-down"></i>');
+});

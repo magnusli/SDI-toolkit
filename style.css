@@ -16,7 +16,7 @@
 @media only screen and (min-width: 2200px) {
   :root {
     --section_width_standard: 35vw;
-    --section_width_broad: 90vw;
+    --section_width_broad: 40vw;
   }
 }
 
@@ -124,7 +124,7 @@ header img {
 }
 .gallery_list {
   margin: 30px auto 60px auto;
-  width: 58vw;
+  width:  var(--section_width_broad);
   text-align: center;
 }
 .gallery_list a {
