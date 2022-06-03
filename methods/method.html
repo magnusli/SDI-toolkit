@@ -2,6 +2,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/414c94076b.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
@@ -22,15 +25,12 @@
     <a href="prototyping.html"><li>Prototyping</li></a>
     <a href="evaluation.html"><li class="current_page">Evaluation</li></a>
   </ul>
-  <main>
-    <h2>A method</h2>
-    <section>
-      <p>
-        Content to be added....
-      </p>
-    </section>
+  <main w3-include-html="not_found.html">
 
-    </main>
+  </main>
   <script src="../scripts.js"></script>
+  <script>
+  w3IncludeHTML();
+  </script>
   </body>
 </html>
